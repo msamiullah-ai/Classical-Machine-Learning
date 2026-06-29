@@ -1,0 +1,39 @@
+Motivation for linearity 
+
+they always assume the relationship bw input and output is linear
+single neuron uses logistic regression in ANN
+slope = y2-y1/x2-x1
+
+slope intercept form: y = mx+b
+ax + by + c = 0 --> standard form of line
+
+when dot product is 0 and (a,b) not equals (0,0) then two vectors must be perpendicular
+
+HYPERPLANE
+
+A hyperplane is a decision boundary whose dimension is one less than the dimension of the surrounding space. In two dimensions it is a line, and in three dimensions it is a plane. Its equation is typically written as w⋅x=b, and it divides the space into two half-spaces. In machine learning, points on one side of the hyperplane are assigned to one class and points on the other side are assigned to another class, making the hyperplane the fundamental decision boundary used by many classifiers. 
+
+For classification, we use it to answer:
+"Which side of the boundary does this point belong to?"
+
+If data has:
+n dimensionsn
+then the hyperplane has:
+n−1 dimensionsn-1 
+
+w⋅x=b 
+
+The hyperplane divides space into two regions.
+Side 1
+w⋅x<b
+Side 2
+w⋅x≥b
+
+DISTANCE BW HYPERPLANE AND A POINT
+
+https://chatgpt.com/s/t_6a3ca7ff12988191afb52b0be717eb21
+
+
+SUMMARY OF WHOLE THINGS: https://chatgpt.com/s/t_6a3cae13d644819186de8901026a8325
+
+
